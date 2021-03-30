@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+
+header {
+    padding: 1vh 1vw;
+    margin-bottom: 1vh;
+    background-color: #699;
+    border-radius: 1vh;
+}
+
+#contenedor {
+    margin: 1%;
+}
+
+header h1{
+    padding-left: 1%;
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: 0.8em;
+    border-top: 2px solid #1f47a8;
+    text-align: center;
+    margin-top: 1vw;
+    padding-top: 1vw;
+}
+
+figure {
+    text-align: center;
+    margin: 100px;
+}
+
+figure img{
+    width: 420px;
+}
+
+#contenedor {
+    transform: perspective(top);
+}
+
+#imagen-1 {
+    transform: rotateX(7deg) rotateY(50deg);
+}
+
+#imagen-2 {
+    transform: rotateX(-30deg) rotateY(45deg); 
+}
+
+#imagen-3 {
+    transform: rotateX(-10deg) rotateY(-60deg);
+}
